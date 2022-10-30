@@ -1,0 +1,38 @@
+html, body{
+    padding: 0;
+    margin: 0;
+}
+
+.headerContainer{
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100px;
+    font-family: sans-serif;
+    background-color: #102e5c;
+    font-weight: bold;
+    color: white;
+    padding-left: 60px;
+}
+
+#headerNameText{
+    font-size: 36px;
+}
+
+.subheader{
+    height: 120px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    font-family: sans-serif;
+    border: 5px solid #102e5c;
+    border-top: 0;
+}
