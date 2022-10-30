@@ -6,7 +6,6 @@ html, body{
 .headerContainer{
     display: flex;
     flex-direction: column;
-    height: 250px;
     margin: 0;
 }
 
@@ -28,7 +27,6 @@ html, body{
 }
 
 .subheader{
-    height: 120px;
     padding-left: 20px;
     padding-right: 20px;
     font-size: 20px;
